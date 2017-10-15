@@ -1,6 +1,10 @@
 this is a test for github upload
+<<<<<<< HEAD
 Nicee Try !
 "GIT" is as complex as "GOT" but FUN to learn/watch ;)
 Thanks :)
 
 
+=======
+test commit for branch
+>>>>>>> User-Management
