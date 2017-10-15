@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Layout </title>
+	<style type="text/css">
+		.main_div{
+			 align-content: center; 
+			 padding-left:60px;
+			 padding-right: 60px; 
+			 padding-top: 10px; 
+			 width: 700px;
+			 background-color: #825924;
+			 margin: 0 auto;
+		}
+		.menu_bar{
+			padding: 10px;
+			padding-left: 20px;
+			background-color: #421b01;
+			color: white;
+		}
+		.imagediv{
+			border: none;
+			display: inline-block;
+		}
+		.inline{
+			display: inline-block;
+			vertical-align: top;
+		}
+		.about{
+			background-color: #7dce88;
+			padding-top: 5px;
+		}
+		img{
+			width: 170px;
+			height: 130px;
+		}
+		.space{
+			border: none;
+			height: 10px;
+		}
+		#abt_dscp
+		{
+			width: 375px;
+			padding-left: 15px;
+		}
+		#abt{
+			font-size: 30px;
+			padding-top: 15px;
+			padding-left: 15px;
+			font-weight: bold;
+		}
+		.content{
+			background-color: #b1bcce;
+		}
+		.sidebar{
+			width: 20%;
+			height: 500px;
+			padding-left: 20px;
+			padding-top: 20px;
+			display: inline-block;
+			background-color: #5d90e2;
+		}
+		.right{
+			display: inline-block;
+			width: 70%;
+			vertical-align: top;
+			padding-left: 25px;
+		}
+		.sidebar_ele{
+			padding-bottom: 10px;
+			color: white;
+			border-bottom: 1px solid white;
+			padding-top: 10px;
+			width: 85%;
+		}
+		span{
+			padding-right: 10px;
+		}
+	</style>
+</head>
+<body>
+<div class="main_div">
+
+	<h2 style="display: inline-block; color: white;">Your Logo</h2>
+	<span style="font-size: 10px; padding-left: 10px;"> Using a single layout to create several different looks</span>
+
+	<!-- Menu bar section -->
+	<div class="menu_bar">
+		<span class="menu_span"> Home</span>
+		<span > | </span>
+		<span style="font-weight: bold;">About</span>
+		<span> | </span>
+		<span>Services</span>
+		<span> |</span>
+		<span>Contact Us </span>
+		<span> |</span>
+	</div>
+	<div class="space"></div>				<!-- A div for spacing -->
+
+	<!-- About Section -->
+	<div class="about">
+		<div class="imagediv">
+			<img src="https://lh3.googleusercontent.com/gUZ_Bw3Oomg4IHz6zsRMb6f8Xyvy4OdZnndFtytg0Df8NuyVOATI8axxY_YJgZhpZ-2Gi6p8YunUBw20KG-zJCUWCyrb_5t4UpioL8XdoyKV_Mp8wCCeXkR_p0BAaBJkbsEm7P4NpNQzafr620CMGrY-hlrujj-EZWaTD6kEQ349PcjpJyheDXgSYcq2_l_ZlUnw7Xipuf1muGyVCnGKB8B2-quiJBjBGi_LDuyu85pDli0ddygjN2wopnLZw2Wz8xQ7p_rDBU_F3vKJHP4OhUS2gKIT6o2sYVXYxTWukKaxDc2Syf6y1Kl2F9NVeW9RZv4epmANrkHkqCMWtjhdDtSWjyNyW6DqRH8NcC_dvEBRBbfoqp8B80VqPc-wHhk-jS5Nl7KKgvZ9VqVrnN23mSHIii1ShBs9yoF_7T8m333Ng10UZYdwiG9-fEfMcQrttkW7zX5B0IhGuWWsRxOvCHuHUaEcuDJ2xbt6f_-bnZajiJK8PntE3nztOPCBDhoADO1oj4E6VDP52vpXOpnNzmJrvvriSTJsWazyw4zP42pALUXkOUCvUnasL_LfjTm_LLi5AzrsPOzggPirX7zdTCQKa7CJUT1b2iOXUiFIRKoBlmIC9vG_9Ns=w450-h199-no" alt="About">
+		</div>
+		<div class="inline">
+			<div id="abt">About</div>
+			<p id="abt_dscp">
+			And then some plain tet would go in here saying some-thing about the section we're in. Probably some glowing statement about the company or whatever.
+			</p>
+		</div>
+	</div>
+	<div class="space"></div>
+
+	<!-- 3rd Section -->
+	<div class="content">
+		<div class="sidebar">
+			<div class="sidebar_ele">About Us</div>
+			<div class="sidebar_ele" style="font-weight: bold;">How We Work</div>
+			<div class="sidebar_ele">Testimonials</div>
+			<div class="sidebar_ele">Contact Support</div>
+		</div>
+		<div class="right">
+			<h2>How we work</h2>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut eniidunt ut labore et dolore magna aliqua. Ut eni</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut eniidunt ut labore et dolore magna aliqua. Ut eni</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut eniidunt ut labore et dolore magna aliqua. Ut eniLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		
+	</div>	
+</div>	
+</body>
+</html>
