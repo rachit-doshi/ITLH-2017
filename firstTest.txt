@@ -1,8 +1,0 @@
-this is a test for github upload
-test commit for branch
-
-<<<<<<< HEAD
-LETS FACE CONFLICT
-=======
-LETS FACE CONFLICTS
->>>>>>> Tasks-Management
