@@ -1,9 +1,6 @@
 this is a test for github upload
-<<<<<<< HEAD
 Nicee Try !
 "GIT" is as complex as "GOT" but FUN to learn/watch ;)
 Thanks :)
 
-=======
-Nicee Try !
->>>>>>> parent of 1ec5b23... Initial commit by Dhruv
+
